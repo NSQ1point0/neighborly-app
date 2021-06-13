@@ -3,7 +3,8 @@
   "Values": {
     "FUNCTIONS_WORKER_RUNTIME": "python",
     "FUNCTIONS_EXTENSION_VERSION": "~3",
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=neighborlystorageaccount;AccountKey=8wkdf4jK2CAQUTRx4a32HNegiY7IEkGw6iZ0NRNPzzWLN9DVFUlNrSOQqwmGKqyDQqV8VFqQlQvwVCnpI1Z7QQ==;EndpointSuffix=core.windows.net"
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=neighborlystorageaccount;AccountKey=8wkdf4jK2CAQUTRx4a32HNegiY7IEkGw6iZ0NRNPzzWLN9DVFUlNrSOQqwmGKqyDQqV8VFqQlQvwVCnpI1Z7QQ==;EndpointSuffix=core.windows.net",
+    "EventHubConnection" : "mongodb://neighborly-db-account:t2r7hpz8NXdu5ekhd7MruazEG8D5GAtbcOmMTKRlzxm9S9E3CBtOY8ZroTIszz6SRMNKUDLp7oo20ABnpNjnGA==@neighborly-db-account.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@neighborly-db-account@"
   },
   "ConnectionStrings": {}
 }
