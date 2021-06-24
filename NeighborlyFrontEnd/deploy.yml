@@ -1,0 +1,9 @@
+data:
+  FUNCTIONS_WORKER_RUNTIME: cHl0aG9u
+  AzureWebJobsStorage: VXNlRGV2ZWxvcG1lbnRTdG9yYWdlPXRydWU=
+apiVersion: v1
+kind: Secret
+metadata:
+  name: neighborlyaks
+---
+
