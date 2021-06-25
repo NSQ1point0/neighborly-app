@@ -7,6 +7,25 @@
       "direction": "in",
 	  "eventHubName": "testhub", 
 	  "connection": "Endpoint=sb://neighborly-e-hub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Me3LvjFy01e+bFsIGnwkPy7vWZyBjUlaxrVZgTwnL/8="
+    },
+    {
+      "type": "httpTrigger",
+      "authLevel": "admin",
+      "direction": "in",
+      "name": "req",
+      "methods": ["get", "post"]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    },
+    {
+      "type": "sendGrid",
+      "name": "sendGridMessage",
+      "direction": "out",
+      "apiKey": "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",
+      "from": "wolfstreetmack@gmail.com"
     }
   ]
 }
